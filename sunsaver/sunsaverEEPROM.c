@@ -49,7 +49,7 @@ int main(void)
 	uint16_t data[50];
 	
 	/* Set up a new MODBUS context */
-	ctx = modbus_new_rtu("/dev/tty.solar", 9600, 'N', 8, 2);
+	ctx = modbus_new_rtu("/dev/ttyUSB0", 9600, 'N', 8, 2);
 	if (ctx == NULL) {
 		fprintf(stderr, "Unable to create the libmodbus context\n");
 		return -1;
