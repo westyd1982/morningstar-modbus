@@ -1,0 +1,17 @@
+# /etc/cron.d/powersystem
+#
+# Measure the power system status every five minutes.
+
+0,5,10,15,20,25,30,35,40,45,50,55 * * * * root /home/tom/powersystem/bin/powersystemstatus
+
+# Update the Daily Power System Graphs html file
+#
+# This should be run after the first measurement of the power system for the day.
+
+1 0 * * * root /home/tom/powersystem/bin/dailygraphs
+
+# Update the SunSaver MPPT daily log and web page
+#
+# Run this program once a day after the sun has set but before midnight.
+
+52 23 * * * root /home/tom/powersystem/bin/dailylog
