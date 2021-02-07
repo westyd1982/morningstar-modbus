@@ -1,0 +1,41 @@
+RAM Registers
+
+adc_vb = 12.49 V
+adc_iac = 0.12 A
+adc_ths = 10.77 V
+adc_remon = 0.02 V
+Vb = 12.49 V
+Iac = 0.05 A
+Ths = 21 °C
+fault = SureSine Faults = 0
+	No faults
+alarm = SureSine Alarms = 0
+	No alarms
+dip_switch = DIP switch settings
+	Switch 1 OFF - Power Mode = Always On
+	Switch 2 OFF - LVD = 11.5 V, LVR = 12.6 V
+	Switch 3 OFF - Beeper Warning On
+	Switch 4 ON - MODBUS Protocol
+load_state = 1 Load On
+mod_index = 38.28 %
+volts = 115 V
+hertz = 60 Hz
+m_disconnect = 0
+modbus_reset = 0
+
+EEPROM Registers
+
+EVb_min = 0.85 V
+EVb_max = 15.00 V
+Emodbus_id = 2
+Emeter_id = 1
+EV_lvd2 = 10.50 V
+EV_lvr2 = 11.60 V
+EV_hvd2 = 15.50 V
+EV_hvr2 = 14.50 V
+Et_lvd_warn2 = 240.0 s
+EV_lvdwarn_beep2 = 10.80 V
+EV_lvrwarn_beep2 = 11.80 V
+EV_startlvd2 = 10.20 V
+Ehourmeter = 200
+Eserial_no = ######## <- your eight character serial number here
