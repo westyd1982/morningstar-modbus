@@ -1,4 +1,4 @@
-This software is an example of reading information from a Morningstar SunSaver MPPT and then displaying the information on a web page.  This example requires the libmodbus library as well as gd2 (on Debian: apt-get install libgd2-noxpm-dev).
+This software is an example of reading information from a Morningstar SunSaver MPPT and then displaying the information on a web page.  This example requires the libmodbus library as well as gd3 (on Debian: sudo apt install libmodbus-dev libgd-dev pkg-config).
 
 To use this example, you will need to edit "powersystem.h" in the "src" directory with the appropriate path to your serial port and the appropriate file paths to where you want to store the log files and the web pages.  Once you have edited "powersystem.h", type "make" in the "src" directory to compile the three executables: powersystemstatus, dailygraphs, and dailylog.  These are stored in the "bin" directory.
 
